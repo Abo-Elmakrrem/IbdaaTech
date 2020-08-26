@@ -1,0 +1,360 @@
+
+body{
+    font-family:'Cairo';
+}
+
+
+
+/*navbar section*/
+
+.navbar-brand img{
+	height: 70px;
+}
+
+.nav-item{
+	text-align: left;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(59,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+
+.navbar-toggler:focus{
+		outline: none;
+}
+
+
+/* end of navbar section*/
+
+
+
+
+
+/*introduction section*/
+
+.w-intro-header{
+	width: 200px;
+}
+
+.title{
+    background-image: url('../imgs/header-side.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;/*search about it */
+}
+
+section.introduction h2{
+    margin-top: 150px;
+    font-size: 3.3rem;
+    text-align: right;
+    line-height: 5rem;
+}
+
+section.introduction img{
+    width: 100%;
+}
+
+
+
+
+
+/*end of introduction section*/
+
+
+/*who we are section*/
+
+section.who-we-are h2{
+	text-align: center;
+	margin-top: 30px;
+}
+
+section.who-we-are hr{
+	color: rgba(58,173,230, 1);
+    width: 100px;
+    border: 3px solid;
+}
+
+section.who-we-are img{
+	width: 100%	;
+}
+
+section.who-we-are p{
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 200px;
+	font-size: x-large;
+}
+
+
+
+/*end of who we are section*/
+
+/*our services*/
+
+section.our-services h1{
+	text-align: center;
+}
+
+section.our-services hr{
+	color:rgba(58,173,230, 1);
+	width: 100px;
+	border: 3px solid;
+	margin-bottom: 100px;
+}
+
+/*section.services-carousel div {
+	background-image: url("assets/imgs/we-offer.png");
+	background-size: cover;
+
+}*/
+div.services-carousel{
+	width: 100%;
+}
+
+
+section.btn-primary{
+	margin-right: :auto;
+}
+
+
+.owl-prev:focus{
+	outline: none;
+}
+
+.owl-next:focus{
+	outline: none;
+}
+
+.owl-prev{
+	margin-left: 10px
+}
+
+.owl-next{
+	margin-right: 10px
+}
+
+.owl-nav{
+	text-align: center;
+	font-size: 50px;
+}
+
+.btn-cards{
+	margin-right: 50px;
+
+}
+
+.card-carousel{
+
+}
+
+
+div.span-carousel{
+	font-size: 50px;
+}
+
+
+
+
+
+
+/*end of our services*/
+
+
+/*our projects*/
+div.our-projects-cards{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section.our-projects{
+	margin-top: 30px;
+}
+
+section.our-projects hr{
+	 width: 100px;
+    color: rgba(93,169,223,1);
+    border: solid 2px;
+}
+
+
+
+/*section.our-projects-main-div{
+	margin-top: 50px;
+	background-image: url(assets/imgs/bg30-Ar1web.gif);
+	background-size: cover;
+}*/
+
+section.our-projects .our-projects-cards{
+	background-image: url(assets/imgs/bg30-Ar1web.gif);
+}
+
+
+.see-more-btn{
+    background-color: rgba(35,49,66,1);
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-right: 370px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+/*end of our projects*/
+
+
+/*articles*/
+.card-rounded{
+    border: 2px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+section.atricles{
+	padding-bottom: 70px;
+}
+div.article-secod-card{
+	margin-right: auto;
+
+}
+div.second-two-cards{
+	margin-top: 100px;
+}
+
+
+section.atricles{
+	margin-top: 80px;
+}
+
+button.butoon-readmore-articles2{
+	margin-right: 500px;
+	margin-top: 30px;
+	padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(35 , 49, 66, 1);
+}
+
+
+.fa-eye:before {
+    content: "\f06e";
+    margin-right: 300px;
+}
+
+/*end of articles*/
+
+
+/*customers we proud of*/
+
+
+h1.header-customers{
+	text-align: center;
+}
+
+
+hr.hor-customers{
+	width: 70px;
+	color: rgba(58, 173, 230, 1);
+	border: solid 2px;
+
+}
+
+/*div.customers-proud{
+	background-image: url(assets/css/our-client-bg.jpg);
+    background-size: cover;
+}*/
+
+img.customers-imgs{
+	width: 150px !important;
+	margin-top: 20px;
+}
+
+
+/*end of customers we proud of*/
+
+
+
+
+/*footer section*/
+.footer {
+    background-image: url("../imgs/footer.jpg");
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 130px;
+}
+
+.footer .row .col-md-4 img {
+    width: 55%;
+}
+
+.footer .row .col-md-6 {
+    margin-top: 37px;
+}
+
+.footer .row .col-md-6 img {
+    width: 200px;
+}
+
+.footer .row .col-md-6 p {
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    margin-top:30px;
+    font-size: 18px;
+}
+
+.footer .row .col-md-6 i {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+
+@media(max-width: 450px) {
+    .main .container-fluid .row .col2 h1 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+    .about .container-fluid .row2 .col1 img {
+        margin-right: 0px !important;
+        width: inherit;
+    }
+
+    .about .container-fluid .row2 .col2 p {
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .footer .row .col-md-4 {
+        text-align: center;
+    }
+
+    .footer .row .col-md-6 {
+        margin-top: 37px;
+        text-align: center;
+    }
+}
+
+
+/*end of footer secton*/
+
+
+
+
+
+
+
+
+
+
+
+

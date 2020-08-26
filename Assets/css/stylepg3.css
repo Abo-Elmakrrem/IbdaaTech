@@ -1,0 +1,146 @@
+/*navbar section*/
+
+.navbar-brand img{
+	height: 70px;
+}
+
+.nav-item{
+	text-align: left;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(59,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+
+.navbar-toggler:focus{
+		outline: none;
+}
+
+
+/* end of navbar section*/
+
+
+/*articles secton*/
+div.h{
+	
+
+}
+section.articles{
+	background-repeat: no-repeat;
+}
+
+
+div.second-card-artice{
+	/*margin-right: 150px;*/
+}
+
+div.row{
+	/*margin-right: 150px;*/
+	background-image: url(assets/imgs/articles.jpg);
+	background-size: cover;
+}
+
+div.card{
+	/*margin-top: auto;
+	margin-bottom: 20px;*/
+}
+
+.second-card{
+	/*margin-right: 50px;*/
+}
+
+div.second-two-cards{
+	/*margin-right: 100px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer section*/
+.footer {
+    background-image: url("../imgs/footer.jpg");
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 130px;
+}
+
+.footer .row .col-md-4 img {
+    width: 55%;
+}
+
+.footer .row .col-md-6 {
+    margin-top: 37px;
+}
+
+.footer .row .col-md-6 img {
+    width: 200px;
+}
+
+.footer .row .col-md-6 p {
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    margin-top:30px;
+    font-size: 18px;
+}
+
+.footer .row .col-md-6 i {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+
+@media(max-width: 450px) {
+    .main .container-fluid .row .col2 h1 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+    .about .container-fluid .row2 .col1 img {
+        margin-right: 0px !important;
+        width: inherit;
+    }
+
+    .about .container-fluid .row2 .col2 p {
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .footer .row .col-md-4 {
+        text-align: center;
+    }
+
+    .footer .row .col-md-6 {
+        margin-top: 37px;
+        text-align: center;
+    }
+}
+
+
+/*end of footer secton*/
